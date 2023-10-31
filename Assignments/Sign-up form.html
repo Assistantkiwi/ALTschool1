@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  <header>
+    <!--Breadcrumb navigation-->
+    <nav aria-label="--Breadcrumb">
+      <ol>
+        <li>
+          <a href="/Assignments/Assignment1.html">About</a>
+        </li>
+        <li>
+          <a href="/Assignments/Assignment1.html">Biography</a>
+        </li>
+        <li>About AltSchool Africa</li>
+      </ol>
+    </nav>
+  </header>
+  <main>
+    <!--About altschool from their website-->
+    <h1>About AltSchool Africa</h1>
+    <p>AltSchool</p>
+
+    <!--Starting sign up form here-->
+   <fieldset>
+       
+         <legend>Application Form</legend>
+          <p>Fill in your details</p>
+            <div style="display:flex;">
+            <div class="leftside form">
+                <!--Leftside form comes here-->
+             <label>First Name <br />            
+              <input type="text" name="First Name" required="required" />
+             </label><br />
+             <label>Gender <br />
+               <select name="Gender" required="required" >
+                 <option value="Female">Female</option>
+                 <option value="Male">Male</option>
+                 <option value="Others">Others</option>
+               </select>
+             </label><br />  
+             <label>Email address<br />
+              <input type="email" name="Email address" required="required" />
+             </label><br />
+             <label>Country<br />
+               <select name="Country" required="required" >
+                 <option vale="Nigeria">Nigeria</option>
+                 <option value="Kenya">Kenya</option>
+                 <option value="United Kingdom">United Kingdom</option>
+                 <option value="Ghana">Ghana</option>
+                 <option value="Austria">Austria</option>
+               </select>
+             </label><br />
+             <label>Employment Status<br />
+               <select name="Employment Status" required="required" >
+                 <option value="Student">Student</option>
+                 <option value="Employed">Employed</option>
+                 <option value="Unemployed">Unemployed</option>
+               </select>
+             </label><br />
+              <label>Choose School<br />
+               <select name="Choose School" required="required">
+                 <option value="School of Data">School of Data</option>
+                 <option value="School of Engineering">School of Engineering</option>
+                 <option value="School of Product">School of Product</option>
+               </select>
+              </label><br />
+             <label>How did you hear about us? <br />
+              <select name="How did you hear about us?" required="required" >
+                <option  value="Social media">Social media</option>
+                <option value="Word of mouth">Word of mouth</option>
+              </select>
+              </label><br />
+            </div>
+
+            <div class="rightside form">
+                <!--Rightside form comes here-->
+             <label>Last Name <br />
+              <input type="text" name="Last Name" required="required" />
+             </label><br />
+             <label>Date of Birth <br />
+              <input type="date" name="Date of Birth" required="required" />
+             </label><br />
+             <label>Education level<br />
+               <select name="Education level" required="required" >
+                 <option value="Highschool leaving certificate">Highschool leaving certificate</option>
+                 <option value="NCE">NCE</option>
+                 <option value="B.Sc">B.Sc</option>
+                 <option value="HND">HND</option>
+               </select>
+             </label><br />
+             <label>State/City of Residence<br />
+              <input type="text" name="State/City of Residence" required="required" />
+             </label><br />
+             <label>Phone Number<br />
+              <input type="text" name="Phone Number" required="required" />
+             </label><br />   
+             <label>Choose Course of Study<br />
+               <select name="Choose Course Of Study" requireed="required">
+                 <option value="Backend engineering">Backend engineering</option>
+                 <option value="Cloud engineering">Cloud engineering</option>
+                 <option value="Data engineering">Data engineering</option>
+                 <option value="Data science">Data science</option>
+                 <option value="Frontend engineering">Frontend engineering</option>
+                 <option value="Product design">Product design</option>
+                 <option value="Product management">Product management</option>
+              </select>
+             </label><br />
+             <label>Scholarship/Discount Code<br />(optional)<br />
+              <input type="text" name="Scholarship/Discount Code" />
+             </label><br />
+             </div>
+            </div>
+
+         <p>By clicking continue, I agree to Terms of Use and acknowledge that<br /> I have read the Privacy Policy.</p>
+          <input type="submit" value="Proceed" />
+         <p>Already  have an account? Sign In</p>
+   </fieldset>
+    <!--Form ends here-->
+    </main>
+</body>
+</html>
