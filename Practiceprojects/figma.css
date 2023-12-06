@@ -1,0 +1,34 @@
+p {
+   color: blue; 
+}
+h3 {
+    color: blue;
+}
+h1 {
+    color: black;
+}
+button {
+    text-shadow: 0px 1px 1px blue;
+    color: white;
+    border-bottom: 2px solid black;
+    background-color: blueviolet;
+    background: -webkit-linear-gradient(linear, left top, left bottom, from(grey), to(blueviolet));
+}
+button :hover{
+    color: blue;
+}
+section {
+    width: 230px;
+    padding: 5px;
+    float: left;
+    display: inline;
+    background-color: rgba(53, 43, 43, 0.507);
+    border: 10px;
+}
+div {
+    width: 230px;
+    padding: 5px;
+    float: left;
+    display: inline;
+    background-color: rgb(83, 56, 107);
+}
