@@ -19,6 +19,8 @@ button :hover{
 }
 section {
     width: 230px;
+    max-width: 230px;
+    margin: 5px;
     padding: 5px;
     float: left;
     display: inline;
@@ -27,6 +29,8 @@ section {
 }
 div {
     width: 230px;
+    max-width: 230px;
+    margin: 5px;
     padding: 5px;
     float: left;
     display: inline;
