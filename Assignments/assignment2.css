@@ -1,0 +1,12 @@
+fieldset {
+    display: flex;
+}
+
+button {
+    margin: 5px;
+    width: 50%;
+    background-color: rgb(1, 41, 1);
+    color: white;
+    padding: 5px;
+}
+
